@@ -1,0 +1,51 @@
+/*INICIO SECCION PRODUCTOS*/
+.productos{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    margin: -20px -10px -23px -10px;
+}
+
+
+#productos{
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+#todaslasimagenes{
+    width: 250px;
+    height: 200px;
+}
+.container1{
+    width: 50%;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 15%;
+    margin: 10px;
+    background-color: #ceedda;
+}
+
+.precio{
+    font-size: 30px;
+}
+
+
+
+
+@media (max-width: 1000px){
+    .container{
+        display: block;
+
+        margin-right: 20px;
+
+    }
+    .container1{
+        width: 100%;
+    }
+}
+
+/*FIN DE SECCION PRODUCTOS*/

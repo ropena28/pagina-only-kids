@@ -1,0 +1,57 @@
+/*INICIO ARMA TU CONJUNTO*/
+.armatuconjunto{/*encabezado de la seccion*/
+    background-color: bisque;
+    margin: -20px 0px -17px -25px;
+    text-align: center;
+}
+
+.padreconjuntos{/*Grupo mas grande de los conjuntos*/
+    display: flex;
+    margin: 0px 0px;
+    
+    
+}
+
+
+.conjuntosnenes{/*seccion de hombres lado izquierso*/
+    background-color: #ceedda;
+    width: 50%;
+    text-align: center;
+    border-width: 3px 2px 3px 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.conjuntosnenas{/*seccion mujeres lado derecho*/
+    background-color: #ceedda;
+    width: 50%;
+    text-align: center;
+    border-width: 3px 2px 3px 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+ul{
+    display: inline-block;
+}
+
+
+#imgconjuntos{/*confijuracion de todas las img de conjuntos*/
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.conjuntos123456{/*confijuracion de todos los cinjuntos para agragar bordes y colores*/
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 30%;
+    margin: 30px;
+    box-shadow: 10px 10px 5px rgb(108, 108, 108);
+}
+/*FIIIN ARMA TU CONJUNTO*/

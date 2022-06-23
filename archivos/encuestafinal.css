@@ -1,0 +1,31 @@
+/*INICIO ENCUESTA FINAL*/
+.encuestafinal{
+    background-color:#ceedda;;
+    text-align: center;
+    margin: -30px -20 -60 -20;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.contenedordepreguntas{
+    margin: 15px 0px 30px 0px;
+}
+
+
+#preguntasf{
+    padding: 15px;
+   
+}
+
+.ayudanos{
+    text-align: center;
+    background-color: bisque;
+    margin: -10px 0PX;
+}
+#ayudanos1{
+   padding: 20px;
+
+}
+/*FIN ENCUESTA FINAL*/
+
+

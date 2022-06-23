@@ -1,0 +1,334 @@
+/*INICIOOOOOOOOOOOO*/
+.presentacion{
+    text-align: center;
+    background-color:  lightblue;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+    margin: -10px -10px 0px -10px;
+}
+
+
+#imgOnly{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius:50%;
+    width: 0%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 150px;    
+}
+
+
+nav{
+    background-color: lightblue;
+    margin: -3px -10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+
+#enlaces{
+    background-color: bisque;
+    padding: 20px 80px;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+#enlaces:hover{
+    background-color: lightblue;
+}
+
+
+#enlaces:active{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.preguntas{
+    display: flex;
+    background-color: lightblue;
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+    padding: 10px;
+    margin: -7px -10px;
+    text-align: center;
+}
+
+
+#parafo1{
+    padding: 15px;
+    margin: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#parafo2{
+    padding: 15px;
+    margin: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#parafo3{
+    padding: 15px;
+    margin: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+}
+/*FIIIIIN INICIOOOOOOOOOOOO*/
+
+
+
+
+
+
+
+
+
+/*INICIO SECCION PRODUCTOS*/
+.productos{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    margin: -20px -10px -23px -10px;
+}
+
+
+#productos{
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+#todaslasimagenes{
+    width: 250px;
+    height: 200px;
+}
+.container1{
+    width: 50%;
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 15%;
+    margin: 10px;
+    background-color: #ceedda;
+}
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .container{
+        display: block;
+    }
+    .container1{
+        width: 100%;
+    }
+}
+
+/*FIN DE SECCION PRODUCTOS*/
+
+
+
+
+
+
+
+
+
+
+/*INICIO ARMA TU CONJUNTO*/
+.armatuconjunto{/*encabezado de la seccion*/
+    background-color: bisque;
+    margin: -20px -25px -17px -25px;
+}
+
+.padreconjuntos{/*Grupo mas grande de los conjuntos*/
+    display: flex;
+    margin: 0px -6px;
+    
+    
+}
+
+
+.conjuntosnenes{/*seccion de hombres lado izquierso*/
+    background-color: #ceedda;
+    width: 50%;
+    text-align: center;
+    border-width: 3px 2px 3px 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.conjuntosnenas{/*seccion mujeres lado derecho*/
+    background-color: #ceedda;
+    width: 50%;
+    text-align: center;
+    border-width: 3px 2px 3px 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.ultodos{/*listas ya que los puntos no se centraban*/
+    text-align: center;
+}
+
+
+ul{
+    display: inline-block;
+}
+
+
+#imgconjuntos{/*confijuracion de todas las img de conjuntos*/
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.conjuntos123456{/*confijuracion de todos los cinjuntos para agragar bordes y colores*/
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    border-radius: 30%;
+    margin: 30px;
+}
+/*FIIIN ARMA TU CONJUNTO*/
+
+
+
+
+
+
+
+
+
+/*INICIO ENCUESTA FINAL*/
+.encuestafinal{
+    background-color:#ceedda;;
+    text-align: center;
+    margin: -30px -20 -60 -20;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.contenedordepreguntas{
+    margin: 15px 0px 30px 0px;
+}
+
+
+#preguntasf{
+    padding: 15px;
+   
+}
+
+.ayudanos{
+    text-align: center;
+    background-color: bisque;
+    margin: -10px;
+}
+#ayudanos1{
+   padding: 20px;
+
+}
+/*FIN ENCUESTA FINAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+
+
+    .preguntas{
+        flex-direction: column;
+    }
+
+
+    #parafo1{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .padreconjuntos{
+        flex-direction: column;
+        
+    }
+    .conjuntosnenes{
+        width: 100%;
+    }
+    .conjuntosnenas{
+        width: 100%;
+    }
+
+
+    .generalproductos{
+        flex-direction: column;
+    }
+    .clastodaslasimg{
+        width: 100%;
+    }
+    .todoslosproductos{
+        width: 100%;
+    }
+    #imgconjuntos{
+        width: 300px;
+        height: 250px;
+    }
+
+
+    .armatuconjunto{
+        margin-right: 7px;
+    }
+
+    
+
+}
+img{
+    width: 50%;
+    height: 250px;
+}
+.armatuconjunto{
+    text-align: center;
+}
+
+
+
+
+

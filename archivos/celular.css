@@ -1,0 +1,61 @@
+@media (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+
+
+    .preguntas{
+        flex-direction: column;
+    }
+
+
+    #parafo1{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .padreconjuntos{
+        flex-direction: column;
+        
+    }
+    .conjuntosnenes{
+        width: 100%;
+    }
+    .conjuntosnenas{
+        width: 100%;
+    }
+
+
+    .generalproductos{
+        flex-direction: column;
+    }
+    .clastodaslasimg{
+        width: 100%;
+    }
+    .todoslosproductos{
+        width: 100%;
+    }
+    #imgconjuntos{
+        width: 300px;
+        height: 250px;
+    }
+
+
+    .armatuconjunto{
+        margin-right: -10px;
+    }
+
+    
+
+}
+img{
+    width: 50%;
+    height: 250px;
+}
+.armatuconjunto{
+    text-align: center;
+}
+
+
+
+
