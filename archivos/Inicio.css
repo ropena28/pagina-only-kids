@@ -32,14 +32,14 @@
 
 
 #imgOnly{
-    /*border-width: 5px;
+    border-width: 5px;
     border-color: black;
     border-style: solid;
     border-radius:50%;
     width: 40%;
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 150px;  */  
+    height: 150px;   
 }
 
 .proximamente{
@@ -100,7 +100,7 @@ nav{
     margin: 15px;
     border-width: 3px;
     border-color: rgb(231, 167, 69);
-    border-style: double;
+    border-style: solid;
     border-radius: 15% 30%;
     /*border-radius: 20%;*/
     background-color: rgb(255, 255, 255);
@@ -112,7 +112,7 @@ nav{
     margin: 15px;
     border-width: 3px;
     border-color: rgb(231, 167, 69);
-    border-style: double;
+    border-style: solid;
     border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
 }
@@ -124,7 +124,7 @@ nav{
     border-width: 3px;
     border-width: 3px;
     border-color: rgb(231, 167, 69);
-    border-style: double;
+    border-style: solid;
     border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
 }
