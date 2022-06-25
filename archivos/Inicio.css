@@ -1,6 +1,6 @@
 /*INICIOOOOOOOOOOOO*/
 .fondoimg{
-    background: url(../fotos/WhatsApp\ Image\ 2022-06-24\ at\ 9.35.04\ PM.jpeg);
+    background: url(../fotos/fondogrande.jpeg);
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -8,6 +8,17 @@
 }
 .presentacion{
     text-align: center;
+
+
+
+    /*background: url(../fotos/logo.jpeg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover*/
+
+
+
+    
     /*background: url(../fotos/WhatsApp\ Image\ 2022-06-24\ at\ 9.35.04\ PM.jpeg);
     background-position: center;
     background-attachment: contain;
@@ -21,14 +32,14 @@
 
 
 #imgOnly{
-    border-width: 5px;
+    /*border-width: 5px;
     border-color: black;
     border-style: solid;
     border-radius:50%;
     width: 40%;
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 150px;    
+    height: 150px;  */  
 }
 
 .proximamente{
@@ -88,9 +99,10 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: black;
+    border-color: rgb(231, 167, 69);
     border-style: double;
-    border-radius: 20%;
+    border-radius: 15% 30%;
+    /*border-radius: 20%;*/
     background-color: rgb(255, 255, 255);
 }
 
@@ -99,9 +111,9 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: black;
+    border-color: rgb(231, 167, 69);
     border-style: double;
-    border-radius: 20%;
+    border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -110,9 +122,10 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: black;
+    border-width: 3px;
+    border-color: rgb(231, 167, 69);
     border-style: double;
-    border-radius: 20%;
+    border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -134,9 +147,9 @@ nav{
     margin: 15px;
     text-decoration: none;
     color: black;
-    border-width: 2px;
+    /*border-width: 2px;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
     border-radius: 15%;
 }
 #dropdownMenuButton1{
@@ -146,8 +159,8 @@ nav{
 .accordion{
     display: none;
     border-width: 3px;
-    border-color: #cef7bc;
-    border-style: solid;
+    /*border-color: rgb(231, 167, 69);
+    border-style: solid;*/
     margin-top: -10px;
     
 }
@@ -159,26 +172,36 @@ nav{
 }
 
 #flush-headingOne{
-    background-color: #cef7bc;
+    background-color: rgb(255, 220, 191);
+    margin: 15;
+    padding: 5px;
+    /*border-style: solid;
+    border-color: rgb(255, 223, 163);*/
     
 }
 #flush-headingTwo{
-    background-color: #cef7bc;
+    background-color: rgb(255, 220, 191);
+    margin: 15;
+    padding: 5px;
   
 }
 #flush-headingThree{
-    background-color: #cef7bc;
+    background-color: rgb(255, 220, 191);
+    margin: 15;
+    padding: 5px;
     
 }
 #accordionFlushExample{
     padding: 10px;
-    background-color: #cef7bc;
+    /*background-color: rgb(231, 167, 69);*/
 
     
 }
 button{
-    background-color: #fcfcfc;
+    background-color: rgb(255, 220, 191);
+    border: none;
 }
+
 
 
 
@@ -189,6 +212,13 @@ button{
 
 
 @media (max-width: 1000px){
+    .fondoimg{
+        background: url(../fotos/fondochico.jpeg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     #imgOnly{
         width: 80%;
     }
@@ -206,10 +236,4 @@ button{
         margin: -4px 0px 10px -10px;
     }
 
-}
-
-@media (max-width: 600px){  
-    .presentacion{
-        background: url(../fotos/WhatsApp\ Image\ 2022-06-24\ at\ 8.28.38\ PM.jpeg);
-}
 }
