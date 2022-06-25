@@ -1,6 +1,5 @@
 /*INICIO ENCUESTA FINAL*/
 .encuestafinal{
-    background-color:#ceedda;;
     text-align: center;
     margin: -30px -20 -60 -20;
     border-width: 5px;
@@ -19,7 +18,7 @@
 
 .ayudanos{
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(194, 229, 250);
     margin: -10px 0PX;
 }
 #ayudanos1{

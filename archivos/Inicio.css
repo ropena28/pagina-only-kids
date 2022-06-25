@@ -1,10 +1,21 @@
 /*INICIOOOOOOOOOOOO*/
+.fondoimg{
+    background: url(../fotos/WhatsApp\ Image\ 2022-06-24\ at\ 9.35.04\ PM.jpeg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .presentacion{
     text-align: center;
-    background-color: #ebfaf1;
-    border-width: 0px 0px 2px 0px;
+    /*background: url(../fotos/WhatsApp\ Image\ 2022-06-24\ at\ 9.35.04\ PM.jpeg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    /*border-width: 0px 0px 2px 0px;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
     margin: -10px 0px 0px -10px;
 }
 
@@ -26,27 +37,27 @@
 
 
 nav{
-    background-color: #cef7bc;
+    
     margin: -4px -10px 5px -10px;
     padding: 40px;
     display: flex;
     justify-content: space-around;  
-    border-width: 2px;
+    /*border-width: 2px;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
     
 }
 
 
 #enlaces{
-    background-color: #fcfcfc;
+    background-color: rgb(231, 167, 69);
     padding: 20px 80px;
     margin: 15px;
     text-decoration: none;
     color: black;
-    border-width: 2px;
+    /*border-width: 2px;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
     border-radius: 15%;
 }
 
@@ -63,10 +74,9 @@ nav{
 
 .preguntas{
     display: flex;
-    background-color: lightblue;
-    border-width: 5px;
+    /*border-width: 5px;
     border-color: black;
-    border-style: double;
+    border-style: double;*/
     padding: 10px;
     margin: -7px -10px;
     text-align: center;
@@ -118,7 +128,7 @@ nav{
 }
 
 .dropdown{
-    background-color: #fcfcfc;
+    background-color:  rgb(231, 167, 69);
     padding: 20px 80px;
     margin: 15px;
     text-decoration: none;
@@ -129,7 +139,7 @@ nav{
     border-radius: 15%;
 }
 #dropdownMenuButton1{
-    background-color: #fcfcfc;
+    background-color:  rgb(231, 167, 69);
     border: none;
 }
 .accordion{
