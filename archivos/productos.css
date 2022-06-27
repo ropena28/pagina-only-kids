@@ -1,9 +1,22 @@
 /*INICIO SECCION PRODUCTOS*/
+.fondo{
+    background: url(../fotos/fondogrande.jpeg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 .productos{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    background-color: bisque;
-    margin: -20px -10px -23px -10px;
+    background-color: #ffeee2;
+    
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    
 }
 
 
@@ -23,10 +36,10 @@
     width: 50%;
     border-width: 3px;
     border-color: black;
-    border-style: double;
-    border-radius: 15%;
+    border-style: solid;
+    border-radius: 25% 25%;
     margin: 10px;
-    background-color: #ceedda;
+    background-color: #ffeee2
 }
 
 .precio{
@@ -45,6 +58,13 @@
     }
     .container1{
         width: 100%;
+    }
+    .fondo{
+        background: url(../fotos/fondochico.jpeg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 

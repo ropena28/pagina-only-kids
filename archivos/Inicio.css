@@ -6,42 +6,37 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -25px;
+    
+
 }
 
 .presentacion{
-    text-align: center;
-
-
+    /*text-align: center;*/
+    background-color: #84e9ff;
 
     /*background: url(../fotos/logo.jpeg);
     background-position: center;
     background-attachment: contain;
-    background-size: cover*/
-
-
-
-    
-    /*background: url(../fotos/WhatsApp\ Image\ 2022-06-24\ at\ 9.35.04\ PM.jpeg);
-    background-position: center;
-    background-attachment: contain;
     background-size: cover;
     background-repeat: no-repeat;*/
+
     /*border-width: 0px 0px 2px 0px;
     border-color: black;
-    border-style: solid;*/
-    margin: -10px 0px 0px -10px;
+    border-style: solid;
+    margin: -10px 0px 0px -10px;*/
 }
 
 
 #imgOnly{
-    border-width: 5px;
+    /*border-width: 2px;
     border-color: black;
     border-style: solid;
-    border-radius:50%;
+    border-radius:10% 30%;*/
     width: 40%;
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 150px;   
+    margin-left: 20px;
+    height: 95px;   
 }
 
 .proximamente{
@@ -76,7 +71,7 @@ nav{
 }
 
 
-#enlaces:hover{
+/*#enlaces:hover{
     background-color: lightblue;
 }
 
@@ -84,7 +79,7 @@ nav{
 #enlaces:active{
     background-color: rgb(255, 255, 255);
 }
-
+*/
 
 .preguntas{
     display: flex;
