@@ -1,19 +1,18 @@
 /*INICIOOOOOOOOOOOO*/
 .fondoimg{
-    background: url(../fotos/fondogrande.jpeg);
+    /*background: url(../fotos/fondogrande.jpeg);
     background-position: center;
     background-attachment: contain;
     background-size: cover;
     background-repeat: no-repeat;
+    */
     margin-top: -25px;
-    
-
+    background-color: white;
 }
 
 .presentacion{
     /*text-align: center;*/
     background-color: #84e9ff;
-
     /*background: url(../fotos/logo.jpeg);
     background-position: center;
     background-attachment: contain;
@@ -59,7 +58,7 @@ nav{
 
 
 #enlaces{
-    background-color: rgb(231, 167, 69);
+    background-color: rgb(217, 247, 171);
     padding: 20px 80px;
     margin: 15px;
     text-decoration: none;
@@ -96,7 +95,7 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: rgb(231, 167, 69);
+    border-color: rgb(252, 140, 159);
     border-style: solid;
     border-radius: 15% 30%;
     /*border-radius: 20%;*/
@@ -108,7 +107,7 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: rgb(231, 167, 69);
+    border-color: rgb(252, 140, 159);
     border-style: solid;
     border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
@@ -120,7 +119,7 @@ nav{
     margin: 15px;
     border-width: 3px;
     border-width: 3px;
-    border-color: rgb(231, 167, 69);
+    border-color: rgb(252, 140, 159);
     border-style: solid;
     border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
@@ -132,14 +131,16 @@ nav{
 /* INICIO DE EDICION BOOTSTRAP */
 
 #carouselExampleIndicators{
-    display: none;
+    
     border-width: 3px;
     border-style: solid;
     border-color: black;
+    width: 50%;
+    margin-left: 40px;
 }
 
 .dropdown{
-    background-color:  rgb(231, 167, 69);
+    background-color: rgb(217, 247, 171) ;
     padding: 20px 80px;
     margin: 15px;
     text-decoration: none;
@@ -150,7 +151,7 @@ nav{
     border-radius: 15%;
 }
 #dropdownMenuButton1{
-    background-color:  rgb(231, 167, 69);
+    background-color: rgb(217, 247, 171);
     border: none;
 }
 .accordion{

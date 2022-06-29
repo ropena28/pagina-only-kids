@@ -1,17 +1,13 @@
 /*INICIO SECCION PRODUCTOS*/
 .fondo{
-    background: url(../fotos/fondogrande.jpeg);
-    background-position: center;
-    background-attachment: contain;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: white;
     
 }
 
 .productos{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #ffeee2;
+    background-color: white;
     
     border-width: 3px;
     border-color: black;
@@ -59,13 +55,7 @@
     .container1{
         width: 100%;
     }
-    .fondo{
-        background: url(../fotos/fondochico.jpeg);
-        background-position: center;
-        background-attachment: contain;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+   
 }
 
 /*FIN DE SECCION PRODUCTOS*/
