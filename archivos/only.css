@@ -1,4 +1,5 @@
 /*INICIOOOOOOOOOOOO*/
+
 .presentacion{
     text-align: center;
     background-color:  lightblue;
@@ -108,7 +109,7 @@ nav{
 /*INICIO SECCION PRODUCTOS*/
 .productos{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lobster Two', cursive;
     background-color: bisque;
     margin: -20px -10px -23px -10px;
 }

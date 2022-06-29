@@ -1,4 +1,5 @@
 /*INICIO ENCUESTA FINAL*/
+
 .encuestafinal{
     text-align: center;
     margin: -30px -20 -60 -20;
@@ -21,8 +22,10 @@
 
 .ayudanos{
     text-align: center;
-    background-color: rgb(247, 229, 171);
+    background-color: rgb(255, 190, 201);
     margin: 20px 0PX;
+    font-family:'Lobster Two', cursive;
+
 }
 #ayudanos1{
    padding: 20px;
@@ -40,7 +43,6 @@
     bottom: 0;
     padding: 5px;
     margin-top: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Lobster Two', cursive;
 }
-
 /*FIN ENCUESTA FINAL*/

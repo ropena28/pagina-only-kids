@@ -1,24 +1,22 @@
 /*INICIO SECCION PRODUCTOS*/
 .fondo{
     background-color: white;
-    
 }
 
 .productos{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white;
-    
-    border-width: 3px;
+    font-family:'Lobster Two', cursive;
+    background-color: rgb(255, 190, 201);
+   /* border-width: 3px;
     border-color: black;
-    border-style: solid;
-    
+    border-style: solid;*/
+    margin: 50px 0px 40px 0px;
+    padding: 10px;
 }
 
-
-#productos{
+/*#productos{
     padding: 30px;
-}
+}*/
 
 .container{
     display: flex;
@@ -31,18 +29,18 @@
 .container1{
     width: 50%;
     border-width: 3px;
-    border-color: black;
+    border-color: rgb(151, 151, 151);
     border-style: solid;
     border-radius: 25% 25%;
     margin: 10px;
-    background-color: #ffeee2
+    background-color: white;
+    display: table;
+    box-shadow: 10px 10px 5px rgb(108, 108, 108);
 }
 
 .precio{
     font-size: 30px;
 }
-
-
 
 
 @media (max-width: 1000px){

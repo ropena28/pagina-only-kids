@@ -1,4 +1,5 @@
 /*INICIOOOOOOOOOOOO*/
+
 .fondoimg{
     /*background: url(../fotos/fondogrande.jpeg);
     background-position: center;
@@ -36,13 +37,13 @@
     margin-bottom: 15px;
     margin-left: 20px;
     height: 95px;   
+    align-items: center;
 }
 
 .proximamente{
     text-align: center;
     padding: 7px;
 }
-
 
 nav{
     
@@ -55,7 +56,6 @@ nav{
     border-style: solid;*/
     
 }
-
 
 #enlaces{
     background-color: rgb(217, 247, 171);
@@ -95,11 +95,11 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: rgb(252, 140, 159);
+    border-color: rgb(217, 247, 171);
     border-style: solid;
     border-radius: 15% 30%;
     /*border-radius: 20%;*/
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 
@@ -107,7 +107,7 @@ nav{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    border-color: rgb(252, 140, 159);
+    border-color: rgb(217, 247, 171);
     border-style: solid;
     border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
@@ -119,24 +119,23 @@ nav{
     margin: 15px;
     border-width: 3px;
     border-width: 3px;
-    border-color: rgb(252, 140, 159);
+    border-color: rgb(217, 247, 171);
     border-style: solid;
     border-radius: 15% 30%;
     background-color: rgb(255, 255, 255);
 }
 
 
-
-
 /* INICIO DE EDICION BOOTSTRAP */
 
 #carouselExampleIndicators{
     
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
-    width: 50%;
-    margin-left: 40px;
+    /*border-width: 3px;
+    /*border-style: solid;
+    border-color: black;*/
+    width: 100%;
+    
+    padding: 40px;
 }
 
 .dropdown{
@@ -170,21 +169,21 @@ nav{
 }
 
 #flush-headingOne{
-    background-color: rgb(255, 220, 191);
+    background-color: rgb(217, 247, 171);;
     margin: 15;
     padding: 5px;
     /*border-style: solid;
     border-color: rgb(255, 223, 163);*/
     
 }
-#flush-headingTwo{
+/*#flush-headingTwo{
     background-color: rgb(255, 220, 191);
     margin: 15;
     padding: 5px;
   
-}
+}*/
 #flush-headingThree{
-    background-color: rgb(255, 220, 191);
+    background-color: rgb(217, 247, 171);;
     margin: 15;
     padding: 5px;
     
@@ -192,11 +191,10 @@ nav{
 #accordionFlushExample{
     padding: 10px;
     /*background-color: rgb(231, 167, 69);*/
-
-    
 }
+
 button{
-    background-color: rgb(255, 220, 191);
+    background-color: rgb(217, 247, 171);
     border: none;
 }
 
@@ -210,15 +208,15 @@ button{
 
 
 @media (max-width: 1000px){
-    .fondoimg{
+    /*.fondoimg{
         background: url(../fotos/fondochico.jpeg);
         background-position: center;
         background-attachment: contain;
         background-size: cover;
         background-repeat: no-repeat;
-    }
+    }*/
     #imgOnly{
-        width: 80%;
+        width: 90%;
     }
     #carouselExampleIndicators{
         display: block;
