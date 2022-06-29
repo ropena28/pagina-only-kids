@@ -10,7 +10,7 @@
    /* border-width: 3px;
     border-color: black;
     border-style: solid;*/
-    margin: 50px 0px 40px 0px;
+    margin: 50px 0px 50px 0px;
     padding: 10px;
 }
 
@@ -20,14 +20,16 @@
 
 .container{
     display: flex;
+    justify-content: center;
     text-align: center;
 }
 #todaslasimagenes{
     width: 250px;
-    height: 200px;
+    height: 210px;
+    border-radius: 50%;
 }
 .container1{
-    width: 50%;
+    width: 30%;
     border-width: 3px;
     border-color: rgb(151, 151, 151);
     border-style: solid;
@@ -35,13 +37,18 @@
     margin: 10px;
     background-color: white;
     display: table;
-    box-shadow: 10px 10px 5px rgb(108, 108, 108);
+    box-shadow: 5px 5px 5px rgb(108, 108, 108);
 }
 
 .precio{
     font-size: 30px;
+    font-family: 'Lobster two', cursive;
 }
 
+#gorritos{
+    font-size: 40px;
+    font-family: 'Lobster two', cursive;
+}
 
 @media (max-width: 1000px){
     .container{
