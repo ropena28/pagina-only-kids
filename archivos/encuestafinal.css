@@ -24,7 +24,7 @@
     text-align: center;
     background-color: rgb(255, 190, 201);
     margin: 20px 0PX;
-    font-family:'Lobster Two', cursive;
+    font-family:'Oranienbaum', serif;;
 
 }
 #ayudanos1{
@@ -33,7 +33,7 @@
 }
 
 .footer {
-    height: 10%;
+    height: 15%;
     background-color: #84e9ff;;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,10 @@
     position: inherit;
     bottom: 0;
     padding: 5px;
-    margin-top: 20px;
-    font-family:'Lobster Two', cursive;
+    margin-top: 25px;
+    font-family:'Patua One', cursive;
+    font-size: large;
 }
+
+
 /*FIN ENCUESTA FINAL*/

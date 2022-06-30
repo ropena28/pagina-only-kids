@@ -21,10 +21,12 @@
     }
     .conjuntosnenes{
         width: 100%;
+        display: block;
     }
-    /*.conjuntosnenas{
+    .conjuntosnenas{
         width: 100%;
-    }*/
+        display: block;
+    }
 
 
     .generalproductos{

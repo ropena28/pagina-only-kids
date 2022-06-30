@@ -9,13 +9,13 @@
 }
 
 .padreconjuntos{/*Grupo mas grande de los conjuntos*/
-    display: flex;
+    display: block;
     margin: 0px 0px;
 }
 
 .conjuntosnenes{/*seccion de hombres lado izquierso*/
     background-color: white;
-    width: 40%;
+    width: 50%;
     text-align: center;
     /*border-width: 3px 2px 3px 3px;
     border-color: black;
@@ -23,14 +23,20 @@
     display: flex;
 }
 
-/*.conjuntosnenas{/*seccion mujeres lado derecho*/
-  /*background-color: white;
-    width: 30%;
+.madreconjuntos{/*Grupo mas grande de los conjuntos*/
+    display: block;
+    margin: 0px 0px;
+}
+
+.conjuntosnenas{/*seccion mujeres lado derecho*/
+    background-color: white;
+    width: 50%;
     text-align: center;
     /*border-width: 3px 2px 3px 3px;
     border-color: black;
     border-style: solid; */
-    /*display: flex;*/
+    display: flex;
+}
 
 
 ul{

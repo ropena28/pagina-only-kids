@@ -85,38 +85,38 @@ nav{
 }
 
 
+
 #parafo1{
     padding: 15px;
-    margin: 15px;
+    margin: 10px;
     border-width: 3px;
-    border-color: rgb(217, 247, 171);
-    border-style: solid;
-    border-radius: 15% 30%;
+    border-color: rgb(216, 253, 162);
+    border-style:dashed;
+    border-radius: 10% ;
     /*border-radius: 20%;*/
-    background-color: white;
+    background-color: rgb(242, 252, 229);
 }
 
 
-#parafo2{
+/*#parafo2{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
     border-color: rgb(217, 247, 171);
-    border-style: solid;
+    border-style: dashed;
     border-radius: 15% 30%;
-    background-color: rgb(255, 255, 255);
-}
+    background-color: rgb(241, 255, 221);
+}*/
 
 
 #parafo3{
     padding: 15px;
     margin: 15px;
     border-width: 3px;
-    
     border-color: rgb(217, 247, 171);
-    border-style: solid;
-    border-radius: 15% 30%;
-    background-color: rgb(255, 255, 255);
+    border-style: dashed;
+    border-radius: 10%;
+    background-color: rgb(242, 252, 229);
     
 }
 
@@ -159,8 +159,8 @@ nav{
 .accordion-body{
     background-color: white;
     border-width: 2px;
-    border-color: black;
-    border-style: solid;
+    border-color: rgb(216, 253, 162) rgb(151, 151, 151);
+    border-style: dashed;
 }
 
 #flush-headingOne{
