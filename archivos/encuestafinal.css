@@ -17,6 +17,7 @@
 #preguntasf{
     padding: 10px;
     text-align: center;
+    font-family: 'Oranienbaum', serif;
    
 }
 
@@ -24,7 +25,7 @@
     text-align: center;
     background-color: rgb(255, 190, 201);
     margin: 20px 0PX;
-    font-family:'Oranienbaum', serif;;
+    font-family:'Oranienbaum', serif;
 
 }
 #ayudanos1{
